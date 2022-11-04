@@ -6,48 +6,16 @@
   <title>Drum Kit</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-red-200">
+<body>
 
-  <script>
-    module.exports = {
-      content: ['./src/**/*.{html,js}'],
-      theme: {
-        colors: {
-          'blue': '#1fb6ff',
-          'purple': '#7e5bef',
-          'pink': '#ff49db',
-          'orange': '#ff7849',
-          'green': '#13ce66',
-          'yellow': '#ffc82c',
-          'gray-dark': '#273444',
-          'gray': '#8492a6',
-          'gray-light': '#d3dce6',
-        },
-        fontFamily: {
-          sans: ['Graphik', 'sans-serif'],
-          serif: ['Merriweather', 'serif'],
-        },
-        extend: {
-          spacing: {
-            '8xl': '96rem',
-            '9xl': '128rem',
-          },
-          borderRadius: {
-            '4xl': '2rem',
-          }
-        }
-      },
-    }
-  </script>
 
   <div class="center">
 
-    <h1 id="title" class="text-6xl">Drum 🥁 Kit</h1>
+    <h1 id="title">Drum 🥁 Kit</h1>
 
-    <div class="set text-4xl">
+    <div>
       <button class="w drum">w</button>
       <button class="a drum">a</button>
       <button class="s drum">s</button>
@@ -68,7 +36,7 @@
       <div><img src="/images/Headphone-bro.png" height="200px" width="200px"></div>
     </div>
 
-    <footer class="text-2xl italic">
+    <footer>
       Made by <a href="https://github.com/YoussefAyachi95" target="_blank">Youssef</a>
     </footer>
   </div>
